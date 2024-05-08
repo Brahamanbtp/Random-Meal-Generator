@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meal Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <h3>Welcome to the Random Meal Generator</h3>
+            <h5>Feeling hungry? Get a random meal by clicking below</h5>
+            <button class="button-primary" id="get_meal">Get Meal 🍔</button>
+        </div>
+        <div id="meal" class="row meal"></div>
+        <!-- New Button "Find" -->
+        <div class="row text-center">
+            <button class="button-primary" id="find">Find</button>
+        </div>
+        <!-- Search Functionality -->
+        <div class="row text-center" id="search_section" style="display: none;">
+            <input type="text" id="search_input" placeholder="Search for a meal...">
+            <button class="button-primary" id="search_btn">Search</button>
+        </div>
+    <!-- SOCIAL PANEL HTML -->
+    <div class="social-panel-container">
+        <div class="social-panel">
+            <p>Created by <i class="fa fa-heart"></i> by <a target="_blank" href="https://florin-pop.com">Brahamanbtp</a></p>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <h4>Connect with us</h4>
+            <ul>
+                <li><a href="https://twitter.com/florinpop1705" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://linkedin.com/in/florinpop17" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="floating-btn">
+        <span class="button-text">Get in Touch</span>
+        <div class="floating-text">Feel free to reach out to us for any inquiries or feedback!</div>
+    </div>
+</body>
+</html>
